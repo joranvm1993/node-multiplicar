@@ -6,7 +6,7 @@ const argv = require('yargs')
                       },
                       limite: {
                           alias: 'l',
-                          default: 10
+                          default: 1    0
                       }
                   })
                   .command('Crear', 'Genera un archivo con la tabla de multiplicar', {
@@ -20,10 +20,7 @@ const argv = require('yargs')
                     }
                 })
                 .help()
-                .argv
-                
-                  
-                  
+                .argv                
 
 const {crearArchivo, listarTabla} = require('./multiplicar/multiplicar');
 
