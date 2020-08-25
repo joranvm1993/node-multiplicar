@@ -6,7 +6,7 @@ Esta es una aplicacion que muesta las tablas de multilplicar al reibir informaci
 Recordar instalar los paquetes de node asi. 
 
 Cambio en el readme
-
+Segundo cambio en el readme
 ```
 npm install
 
